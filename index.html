@@ -27,7 +27,6 @@
     type="text"
     id="search"
     placeholder="Type chapter name or number..."
-    disabled
   >
 </section>
   
@@ -54,6 +53,19 @@
   </section>
 
 </main>
+<script>
+  const searchInput = document.getElementById("search");
+  const chapters = document.querySelectorAll(".chapter-card");
+
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+
+    chapters.forEach(chapter => {
+      const text = chapter.textContent.toLowerCase();
+      chapter.style.display = text.includes(query) ? "block" : "none";
+    });
+  });
+</script>
 
 </body>
 </html>
