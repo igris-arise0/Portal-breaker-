@@ -156,3 +156,28 @@ body {
 .back-link:hover {
   text-decoration: underline;
 }
+.search-section {
+  margin: 1.5rem 0 2rem;
+}
+
+.search-section label {
+  display: block;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 0.4rem;
+}
+
+.search-section input {
+  width: 100%;
+  padding: 0.8rem 0.9rem;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: #0f0f0f;
+  color: #eee;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-section input::placeholder {
+  color: #666;
+}
