@@ -271,8 +271,31 @@ TO BE CONTINUED
 
 <a href="../index.html" class="back-link">← Back to Home</a>
 
+<div class="reader-count">
+  Readers: <span id="viewCount">...</span>
+</div>
+
 </article>
 </main>
+
+<script>
+async function updateViews() {
+  const key = "portal-breaker-chapter2";
+
+  try {
+    const res = await fetch(
+      "https://api.countapi.xyz/hit/portalbreaker/" + key
+    );
+
+    const data = await res.json();
+    document.getElementById("viewCount").innerText = data.value;
+  } catch (e) {
+    document.getElementById("viewCount").innerText = "—";
+  }
+}
+
+updateViews();
+</script>
 
 </body>
 </html>
