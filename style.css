@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+.reader-count {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
 /* BASE */
 html {
   scroll-behavior: smooth;
@@ -65,12 +72,7 @@ body {
   font-size: 0.95rem;
 }
 
-.reader-count {
-  margin-top: 20px;
-  color: #aaa;
-  font-size: 0.9rem;
-  text-align: right;
-}
+
 
 /* CHAPTER LIST */
 .chapter-list {
