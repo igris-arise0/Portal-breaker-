@@ -5,12 +5,7 @@
   box-sizing: border-box;
 }
 
-.reader-count {
-  margin-top: 20px;
-  color: #aaa;
-  font-size: 0.9rem;
-  text-align: right;
-}
+
 
 /* BASE */
 html {
