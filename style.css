@@ -181,3 +181,10 @@ body {
 .search-section input::placeholder {
   color: #666;
 }
+
+.reader-count {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 0.9rem;
+  text-align: right;
+}
