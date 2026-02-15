@@ -194,3 +194,14 @@ body {
   color: #666;
   font-size: 0.85rem;
 }
+
+.hero {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.hero-logo {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
