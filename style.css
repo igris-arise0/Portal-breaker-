@@ -196,12 +196,12 @@ body {
 }
 
 .hero {
-  text-align: center;
-  padding: 30px 10px;
+  width: 100%;
+  overflow: hidden;
 }
 
-.hero-logo {
-  max-width: 90%;
+.hero img {
+  width: 100%;
   height: auto;
-  border-radius: 10px;
+  display: block;
 }
